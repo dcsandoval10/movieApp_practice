@@ -11,13 +11,12 @@ const printMovies = (data, container) => {
         `
             <img src="${IMG_PATH + poster_path}" alt="">
             <div class="movie-info">
-                <h3>Movies title</h3>
+                <h3>${title}</h3>
                 <span class="green">9.8</span>
             </div>
             <div class="overview">
-                <h3>overview</h3>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda quas vero neque sint quisquam rerum
-                sit. Exercitationem sint temporibus dicta?
+                <h3>${overview}</h3>
+                
             </div>  
         `
         container.appendChild(div)      
